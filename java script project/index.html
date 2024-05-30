@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>כניסה למשחק האותיות</title>
+  </head>
+  <body dir="rtl">
+    <div id="myDiv1">
+      <fieldset>
+        <legend></legend>
+      </fieldset>
+    </div>
+    <div id="myDiv2">
+      <fieldset id="fieldset">
+        <form action="" id="myForm">
+          <legend>כאן נרשמים 😀</legend>
+
+          <br />
+          <label for="fname">שם פרטי</label>
+          <br />
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="שם"
+            required
+          />
+          <br />
+          <label for="lname"> שם משפחה</label>
+          <br />
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="משפחה"
+            required
+          />
+          <br />
+          <label for="age">גיל</label>
+          <br />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            min="1"
+            max="120"
+            placeholder="1-120"
+            required
+          />
+          <br />
+          <label for="password">סיסמא</label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            maxlength="15"
+            minlength="8"
+            placeholder="********"
+            required
+          />
+
+          <br /><br />
+          <button type="submit">אשר</button>
+          <button type="reset">מחק</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
